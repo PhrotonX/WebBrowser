@@ -1,8 +1,18 @@
-WebBrowser
+Web Browser
 by Phroton
+Created in April 25, 2021
 Reset in April 28, 2021
 
-Version 0.1.0.2 build 4 (reset)
+Version 0.1.0.2 alpha build
+-Added icons to home, back, forward, refresh, search & about buttons (requires improvement)
+-Added unused progress bar
+
+Version 0.1.0.1 alpha build 10 (reset) - April 28, 2021
 -Code Reset. Now uses .NET Framework
 -Added function to Home, Back, Forward, Refresh & Search
 -Added search bar
+-Added Web Browser control
+-Added About Dialog
+Version 0.1.0.0 alpha build 6 - April 28, 2021
+-Basic code written in Win32, C++
+-Added Home, Back, Forward, Refresh & Search. Currently non-functional

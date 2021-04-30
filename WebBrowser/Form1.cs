@@ -12,6 +12,8 @@ namespace WebBrowser
 {
     public partial class Form1 : Form
     {
+        private const string info = "Web Browser v0.1.0.1 alpha build 14";
+
         public Form1()
         {
             InitializeComponent();
@@ -61,5 +63,28 @@ namespace WebBrowser
         {
 
         }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            const string messageAbout = info;
+            const string messageAboutTitle = "About Web Browser";
+
+            MessageBoxButtons messageAboutButtons = MessageBoxButtons.OK;
+
+            MessageBox.Show(messageAbout, messageAboutTitle, messageAboutButtons);
+        }
+
+        private void toolStripProgressBar1_Click(object sender, EventArgs e)
+        {
+            toolStripProgressBar1.Visible = true;
+            toolStripProgressBar1.Value = 1;
+        }
+        /*
+private void toolStripProgressBar1_Click(object sender, EventHandler e)
+{
+   toolStripProgressBar1.Visible = true;
+   //toolStripProgressBar1.Maximum = (int)e.MaximumProgress;
+   //toolStripProgressBar1.Value = (int)e.CurrentProgress;
+}*/
     }
 }
