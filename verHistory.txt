@@ -3,7 +3,7 @@ by Phroton
 Created in April 25, 2021
 Reset in April 28, 2021
 
-Version 0.1.0.2 alpha build
+Version 0.1.0.2 alpha build 16 - April 30, 2021
 -Added icons to home, back, forward, refresh, search & about buttons (requires improvement)
 -Added unused progress bar
 

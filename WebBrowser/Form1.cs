@@ -12,7 +12,7 @@ namespace WebBrowser
 {
     public partial class Form1 : Form
     {
-        private const string info = "Web Browser v0.1.0.1 alpha build 14";
+        private const string info = "Web Browser v0.1.0.2 alpha build 16";
 
         public Form1()
         {
@@ -61,7 +61,7 @@ namespace WebBrowser
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-
+            
         }
 
         private void toolStripButton6_Click(object sender, EventArgs e)
@@ -76,8 +76,8 @@ namespace WebBrowser
 
         private void toolStripProgressBar1_Click(object sender, EventArgs e)
         {
-            toolStripProgressBar1.Visible = true;
-            toolStripProgressBar1.Value = 1;
+            //toolStripProgressBar1.Visible = true;
+            //toolStripProgressBar1.Value = 1;
         }
         /*
 private void toolStripProgressBar1_Click(object sender, EventHandler e)
