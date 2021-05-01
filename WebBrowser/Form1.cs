@@ -12,7 +12,9 @@ namespace WebBrowser
 {
     public partial class Form1 : Form
     {
-        private const string info = "Web Browser v0.1.0.2 alpha build 16";
+        private const string info = "Web Browser v0.1.0.3 alpha build 21";
+        const string messageAbout = info;
+        const string messageAboutTitle = "About Web Browser";
 
         public Form1()
         {
@@ -66,9 +68,6 @@ namespace WebBrowser
 
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
-            const string messageAbout = info;
-            const string messageAboutTitle = "About Web Browser";
-
             MessageBoxButtons messageAboutButtons = MessageBoxButtons.OK;
 
             MessageBox.Show(messageAbout, messageAboutTitle, messageAboutButtons);
@@ -79,12 +78,44 @@ namespace WebBrowser
             //toolStripProgressBar1.Visible = true;
             //toolStripProgressBar1.Value = 1;
         }
+
+        private void caretBrowsingtF7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBoxButtons messageAboutButtons = MessageBoxButtons.OK;
+
+            MessageBox.Show(messageAbout, messageAboutTitle, messageAboutButtons);
+        }
+
+        private void newWindowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+        }
         /*
 private void toolStripProgressBar1_Click(object sender, EventHandler e)
 {
-   toolStripProgressBar1.Visible = true;
-   //toolStripProgressBar1.Maximum = (int)e.MaximumProgress;
-   //toolStripProgressBar1.Value = (int)e.CurrentProgress;
+toolStripProgressBar1.Visible = true;
+//toolStripProgressBar1.Maximum = (int)e.MaximumProgress;
+//toolStripProgressBar1.Value = (int)e.CurrentProgress;
 }*/
     }
 }

@@ -3,10 +3,14 @@ by Phroton
 Created in April 25, 2021
 Reset in April 28, 2021
 
+Version 0.1.0.3 alpha build -
+-Added unused menu bar. Contains File, Edit, Tools, Window & Help
+-Added function to Help > About
+-Window size is now 1020x520
+
 Version 0.1.0.2 alpha build 16 - April 30, 2021
 -Added icons to home, back, forward, refresh, search & about buttons (requires improvement)
 -Added unused progress bar
-
 Version 0.1.0.1 alpha build 10 (reset) - April 28, 2021
 -Code Reset. Now uses .NET Framework
 -Added function to Home, Back, Forward, Refresh & Search
