@@ -12,7 +12,7 @@ namespace WebBrowser
 {
     public partial class Form1 : Form
     {
-        private const string info = "Web Browser v0.1.0.3 alpha build 21";
+        private const string info = "Web Browser v0.1.0.3 alpha build 25";
         const string messageAbout = info;
         const string messageAboutTitle = "About Web Browser";
 
